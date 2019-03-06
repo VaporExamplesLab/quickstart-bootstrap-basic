@@ -26,11 +26,34 @@
 * [Install homebrew ⇗](https://brew.sh/)
 * [Install vapor toolbox ⇗](https://docs.vapor.codes/3.0/install/macos/)
 
-**Clone, Build & Run**
+**Download|Clone & Run**
+
+Steps to download repository:
 
 ``` bash
 ## go to your working directory
 cd <your-choosen-directory-path>
+
+## download and unzip
+wget https://github.com/VaporExamplesLab/quickstart-bootstrap-basic/archive/master.zip
+unzip master.zip -d quickstart-bootstrap-basic
+rm master.zip     # remove download
+
+cd quickstart-bootstrap-basic-master
+
+# update dependencies 
+# with `-y` yes to generate and open Xcode project
+vapor update -y
+```
+
+Or, alternate steps to clone repository instead of download:
+
+``` bash
+## go to your working directory
+cd <your-choosen-directory-path>
+
+## either clone
+##    add --bare option for an unattached instance
 git clone git@github.com:VaporExamplesLab/quickstart-bootstrap-basic.git 
 
 cd quickstart-bootstrap-basic

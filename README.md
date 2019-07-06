@@ -18,7 +18,7 @@
 [Original Setup](#OriginalSetup) •
 [Resources](#Resources) 
 
-## Getting Started <a id="GettingStarted">[▴](#toc)</a>
+## Getting Started <a id="GettingStarted"></a>[▴](#toc)
 
 **Prerequisites**
 
@@ -71,18 +71,18 @@ Click the run button and check the results in a browser at `http://localhost:808
 
 ![](README_files/LandingPage.png)
 
-## Original Setup <a id="OriginalSetup">[▴](#toc)</a>
+## Original Setup <a id="OriginalSetup"></a>[▴](#toc)
 
-The following steps were completed to create the `quickstart-basic` example. 
+The following steps were completed to create the `quickstart-bootstrap-basic` example. 
 
 
 **Create Vapor Website Project**
 
-Create a `quickstart-basic` project from the command line terminal:
+Create a `quickstart-bootstrap-basic` project from the command line terminal:
 
 ``` bash
-vapor new quickstart-basic --web
-cd quickstart-basic
+vapor new quickstart-bootstrap-basic --web
+cd quickstart-bootstrap-basic
 # add directory for README.md assets
 mkdir README_files 
 touch README_files/.git_keep # create file so folder is not empty for `git`  
@@ -164,7 +164,7 @@ Add navigation to _base.leaf_ above the `<div>` body container.
 
 ```
 
-## Resources <a id="Resources">[▴](#toc)</a>
+## Resources <a id="Resources"></a>[▴](#toc)
 
 * [Bootstrap ⇗](https://getbootstrap.com)
 * [Wenderlich: Beautifying Templated Websites with Leaf and Bootstrap ⇗](https://www.raywenderlich.com/1004734-beautifying-templated-websites-with-leaf-and-bootstrap)
